@@ -86,6 +86,7 @@ const makeElem = images => {
 
 refs.listItems.innerHTML = makeElem(images);
 
+
 let gallery = new SimpleLightbox('.gallery-link', {
   captions: true,
   captionClass: 'style-caption',
